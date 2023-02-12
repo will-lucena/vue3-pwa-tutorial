@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
+import ReloadPWA from "./components/ReloadPWA.vue";
 import TheWelcome from "./components/TheWelcome.vue";
 </script>
 
@@ -14,6 +15,7 @@ import TheWelcome from "./components/TheWelcome.vue";
     />
 
     <div class="wrapper">
+      <ReloadPWA />
       <HelloWorld msg="You did it!" />
     </div>
   </header>
